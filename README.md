@@ -13,7 +13,7 @@ GettingandCleaningData
 
 5) Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## =======================================================
+## ==================================================
 
 ## Operating Instructions
 
@@ -21,7 +21,7 @@ GettingandCleaningData
 
 2) The code requires the "plyr" package in R. If not installed, please run 'install.packages("plyr")' in your R console.
 
-## ========================================================
+## ===================================================
 
 ## Quick run-through on how the code works
 
