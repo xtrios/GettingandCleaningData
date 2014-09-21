@@ -1,0 +1,49 @@
+Codebook
+========
+
+The tidy data set created contains the average of each variable for each activity and each subject.
+Please see below on the details for feature selection and the terms used:
+
+
+Details on the Feature Selection
+=================
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and Time_Gyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (Time_BodyAcc-XYZ and Time_GravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (Time_BodyAccJerk-XYZ and Time_BodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (Time_BodyAccMag, Time_GravityAccMag, Time_BodyAccJerkMag, Time_BodyGyroMag, Time_BodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing Freq_BodyAcc-XYZ, Freq_BodyAccJerk-XYZ, Freq_BodyGyro-XYZ, Freq_BodyAccJerkMag, Freq_BodyGyroMag, Freq_BodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+Time_BodyAcc-XYZ
+Time_GravityAcc-XYZ
+Time_BodyAccJerk-XYZ
+Time_BodyGyro-XYZ
+Time_BodyGyroJerk-XYZ
+Time_BodyAccMag
+Time_GravityAccMag
+Time_BodyAccJerkMag
+Time_BodyGyroMag
+Time_BodyGyroJerkMag
+Freq_BodyAcc-XYZ
+Freq_BodyAccJerk-XYZ
+Freq_BodyGyro-XYZ
+Freq_BodyAccMag
+Freq_BodyAccJerkMag
+Freq_BodyGyroMag
+Freq_BodyGyroJerkMag
+
+This dataset contains the following extracted variables that were estimated from these signals:
+
+mean: Mean value
+std: Standard deviation
+
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+
+gravityMean
+Time_BodyAccMean
+Time_BodyAccJerkMean
+Time_BodyGyroMean
+Time_BodyGyroJerkMean
